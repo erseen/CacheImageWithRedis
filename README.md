@@ -4,7 +4,7 @@
 <p>First of all, you should run Redis as a container in Docker. You can use the following command to run Redis in your Docker</p>
 
  <p>"docker run --name my-redis-container -p 6379:6379 -d redis "</p>
-<h3>#Step3 Configure Redis in Your Application</h3>
+<h3>#Step 2 Configure Redis in Your Application</h3>
 <p> You can change config options which is available in service registration </p>
  
  <p>"services.AddStackExchangeRedisCache(options =>
