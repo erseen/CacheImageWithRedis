@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DistributedCacheRedis.props" />
+</Project>
