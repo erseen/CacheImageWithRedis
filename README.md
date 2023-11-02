@@ -7,10 +7,10 @@
 <h3>#Step3 Configure Redis in Your Application</h3>
 <p> You can change config options which is available in service registration </p>
  
- "services.AddStackExchangeRedisCache(options =>
+ <p>"services.AddStackExchangeRedisCache(options =>
  {
      options.Configuration = "localhost:6379";
 
- });"
+ });"</p>
 
 
